@@ -1,0 +1,121 @@
+Choice		Action
+------		------
+C		Create a heap
+D		Delete the heap
+E		Extract max node
+F		Find a food by key
+I		Insert a food
+K		Increase the key
+M		Get the max node
+P		Print the heap
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+Please enter the heap capacity: 
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "bacon" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "egg" is added
+
+What action would you like to perform?
+
+Heap capacity = 10
+
+Heap size = 2
+
+4    bacon   5.99    
+1    egg     2.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "cake" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "fish" is added
+
+What action would you like to perform?
+
+Heap capacity = 10
+
+Heap size = 4
+
+4    bacon   5.99    
+2    fish    8.99    
+3    cake    13.99   
+1    egg     2.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "onion" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "bread" is added
+
+What action would you like to perform?
+
+Heap capacity = 10
+
+Heap size = 6
+
+16   onion   1.29    
+4    bacon   5.99    
+9    bread   3.99    
+1    egg     2.99    
+2    fish    8.99    
+3    cake    13.99   
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 5 is NOT found
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 1 is found
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 16 is found
+
+What action would you like to perform?
+
+The maximum heap node is:
+16   onion   1.29    
+
+What action would you like to perform?
+
+Delete the heap
+
+The number of deleted food items is: 6
+
+What action would you like to perform?
+
+The number of deleted food items is: 0

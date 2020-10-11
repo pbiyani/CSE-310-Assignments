@@ -1,0 +1,135 @@
+/* Styling to position ASU links in the top right and collapse to a menu for mobile browsing */
+/* Push announcements and notifications below the header links */
+div#dashboard.ic-dashboard-app {
+  margin-top: 0px;
+}
+/* Mobile styling */
+/* Ensure that the open/close button does not overlap with other elements */
+.asuHeaderPadding {
+  min-height: 15px;
+  display: inline;
+  position: relative;
+}
+/* Remove extra space above and below header */
+div#custom-asu-header-links {
+  height: 0px;
+}
+/* Make the icons bold when hovering */
+div#custom-asu-header-links:hover::before {
+  font-weight: bold;
+}
+/* Position mobile header to the right */
+button#mobile-custom-asu-header-links {
+  float: right;
+}
+/* Remove bullet points, position menu items, and set up transition effects */
+#custom-asu-header-ul {
+  list-style-type: none;
+  top: -15px;
+  position: relative;
+  right: 30px;
+  transform-origin: top;
+  transition: transform 0.3s;
+  width: 150px;
+  float: right;
+}
+/* Collapse without animation to avoid the animation coming up an inappropriate times (when resizing the window) */
+#custom-asu-header-ul.closed {
+  transform: scaleY(0);
+  transition: transform 0s;
+}
+/* Expand and ensure that the list is in front of other elements */
+#custom-asu-header-ul.opened {
+  transform: scaleY(1);
+  z-index: 11;
+}
+/* Make all menu buttons the same width */
+#custom-asu-header-ul li a {
+  width: 100%;
+}
+/* End Mobile styling */
+/* Desktop styling */
+@media only screen and (min-width: 768px) {
+  /* Hide padding to save screen space */
+  .asuHeaderPadding {
+    min-height: 0px;
+    display: hidden;
+    position: relative;
+  }
+  /* Position the list in the upper right corner of the page, and make sure it is in front of other elements */
+  #custom-asu-header-ul {
+    list-style-type: none;
+    display: inline !important;
+    top: 0px;
+    right: 10px;
+    padding: 0px 5px;
+    transform: scaleY(1) !important; /* Make sure it has a height */
+    z-index: 11 !important;
+    transition: transform 0s;
+    position: absolute;
+    width: auto;
+  }
+  /* Arrange links in a single row */
+  #custom-asu-header-ul li {
+    display: inline-block !important;
+    width: auto;
+  }
+  /* Disable .Button styling on header links */
+  #custom-asu-header-ul li a {
+    background: transparent !important;
+    color: var(--ic-brand-font-color-dark-lightened-15) !important;
+    border-color: transparent !important;
+    padding: 0 !important;
+    text-decoration: underline !important;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  /* Set hover style for header links to counterract .Button style */
+  #custom-asu-header-ul li a:hover {
+    color: var(--ic-link-color-darkened-10) !important;
+  }
+  /* Hide open/close icon */
+  div#custom-asu-header-links::before {
+    display: none;
+  }
+}
+/* End Desktop styling */
+/* End Header styling */
+/* Default font to roboto globally */
+html {
+  font-family: 'roboto', sans-serif;
+}
+/* Fix Chrome margin issue on Apps (MediaAMP) embed 6-21-18 - May be fixed by Instructure 8-23-18 */
+#external_tool_button_form {
+  margin: 0 0 0;
+}
+/* Hide harmful things 
+, table.coursesettings #course_course_code, table.coursesettings label[for='course_course_code'] */
+#right-side > div > .reset_course_content_button,
+.copy_course_link,
+select#course_course_visibility option[value='public'],
+#right-side > div > a.Button[href$='event=delete'],
+#right-side > div > a.Button[href$='event=conclude'] {
+  display: none;
+}
+/* Hide cross-list and create new course buttons */
+a.crosslist_link,
+#start_new_course,
+button[aria-label='Create new course'] {
+  display: none !important;
+}
+/* Threaded Discussions */
+.replies {
+  padding-left: 0px;
+  border-left: solid #f2f2f2 16px;
+}
+
+.discussion-read-state-btn {
+  top: 32px;
+  left: -25px !important;
+}
+
+div.entry-content {
+  padding-left: 0px !important;
+}
+/* End Threaded Discussions */

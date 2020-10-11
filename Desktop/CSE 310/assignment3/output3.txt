@@ -1,0 +1,292 @@
+Choice		Action
+------		------
+C		Create a heap
+D		Delete the heap
+E		Extract max node
+F		Find a food by key
+I		Insert a food
+K		Increase the key
+M		Get the max node
+P		Print the heap
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+Please enter the heap capacity: 
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "apple" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "bacon" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "fish" is added
+
+What action would you like to perform?
+
+Heap capacity = 5
+
+Heap size = 3
+
+13   bacon   5.99    
+5    apple   1.29    
+2    fish    6.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Duplicated food item. Not added
+
+The food "chips" is NOT added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "chips" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "pizza" is added
+
+What action would you like to perform?
+
+Heap capacity = 5
+
+Heap size = 5
+
+25   chips   2.99    
+13   bacon   5.99    
+2    fish    6.99    
+5    apple   1.29    
+7    pizza   12.99   
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Reach the capacity limit. Double the capacity
+
+The new capacity now is 10
+
+The food "dates" is added
+
+What action would you like to perform?
+
+Heap capacity = 10
+
+Heap size = 6
+
+25   chips   2.99    
+13   bacon   5.99    
+17   dates   4.99    
+5    apple   1.29    
+7    pizza   12.99   
+2    fish    6.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "grapes" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "milk" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "corn" is added
+
+What action would you like to perform?
+
+Heap capacity = 10
+
+Heap size = 9
+
+25   chips   2.99    
+13   bacon   5.99    
+20   grapes  2.99    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+17   dates   4.99    
+5    apple   1.29    
+4    corn    0.50    
+
+What action would you like to perform?
+Choice		Action
+------		------
+C		Create a heap
+D		Delete the heap
+E		Extract max node
+F		Find a food by key
+I		Insert a food
+K		Increase the key
+M		Get the max node
+P		Print the heap
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+The maximum heap node is:
+25   chips   2.99    
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 7 is found
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 4 is found
+
+What action would you like to perform?
+
+Enter the food key you want to search: 
+Food with key: 11 is NOT found
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 10
+
+Heap size = 9
+
+25   chips   2.99    
+13   bacon   5.99    
+20   grapes  2.99    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+17   dates   4.99    
+5    apple   1.29    
+4    corn    0.50    
+
+After extract heap max operation:
+
+Heap capacity = 10
+
+Heap size = 8
+
+20   grapes  2.99    
+13   bacon   5.99    
+17   dates   4.99    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+4    corn    0.50    
+5    apple   1.29    
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 10
+
+Heap size = 8
+
+20   grapes  2.99    
+13   bacon   5.99    
+17   dates   4.99    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+4    corn    0.50    
+5    apple   1.29    
+
+After extract heap max operation:
+
+Heap capacity = 10
+
+Heap size = 7
+
+17   dates   4.99    
+13   bacon   5.99    
+5    apple   1.29    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+4    corn    0.50    
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+The new key you entered already exist, increase key operation failed
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+The old key you try to increase does not exist
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+Before increase key operation:
+
+Heap capacity = 10
+
+Heap size = 7
+
+17   dates   4.99    
+13   bacon   5.99    
+5    apple   1.29    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+4    corn    0.50    
+
+Food with old key: 5 is increased to new key: 19
+
+After increase key operation:
+
+Heap capacity = 10
+
+Heap size = 7
+
+19   apple   1.29    
+13   bacon   5.99    
+17   dates   4.99    
+8    milk    5.99    
+7    pizza   12.99   
+2    fish    6.99    
+4    corn    0.50    
+
+What action would you like to perform?
+
+The number of deleted food items is: 7

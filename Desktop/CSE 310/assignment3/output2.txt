@@ -1,0 +1,289 @@
+Choice		Action
+------		------
+C		Create a heap
+D		Delete the heap
+E		Extract max node
+F		Find a food by key
+I		Insert a food
+K		Increase the key
+M		Get the max node
+P		Print the heap
+Q		Quit
+?		Display Help
+
+
+What action would you like to perform?
+
+Please enter the heap capacity: 
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "bread" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "egg" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Duplicated food item. Not added
+
+The food "pear" is NOT added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "pear" is added
+
+What action would you like to perform?
+
+Heap capacity = 3
+
+Heap size = 3
+
+9    pear    1.69    
+2    bread   2.99    
+4    egg     1.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Reach the capacity limit. Double the capacity
+
+The new capacity now is 6
+
+The food "onion" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "orange" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "carrot" is added
+
+What action would you like to perform?
+
+Heap capacity = 6
+
+Heap size = 6
+
+16   carrot  0.75    
+9    pear    1.69    
+11   orange  0.97    
+2    bread   2.99    
+3    onion   1.29    
+4    egg     1.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Reach the capacity limit. Double the capacity
+
+The new capacity now is 12
+
+The food "biscuit" is added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+Duplicated food item. Not added
+
+The food "cookie" is NOT added
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "apple" is added
+
+What action would you like to perform?
+
+Heap capacity = 12
+
+Heap size = 8
+
+16   carrot  0.75    
+9    pear    1.69    
+13   biscuit 3.45    
+8    apple   1.99    
+3    onion   1.29    
+4    egg     1.99    
+11   orange  0.97    
+2    bread   2.99    
+
+What action would you like to perform?
+
+Before extract heap max operation:
+
+Heap capacity = 12
+
+Heap size = 8
+
+16   carrot  0.75    
+9    pear    1.69    
+13   biscuit 3.45    
+8    apple   1.99    
+3    onion   1.29    
+4    egg     1.99    
+11   orange  0.97    
+2    bread   2.99    
+
+After extract heap max operation:
+
+Heap capacity = 12
+
+Heap size = 7
+
+13   biscuit 3.45    
+9    pear    1.69    
+11   orange  0.97    
+8    apple   1.99    
+3    onion   1.29    
+4    egg     1.99    
+2    bread   2.99    
+
+What action would you like to perform?
+
+Heap capacity = 12
+
+Heap size = 7
+
+13   biscuit 3.45    
+9    pear    1.69    
+11   orange  0.97    
+8    apple   1.99    
+3    onion   1.29    
+4    egg     1.99    
+2    bread   2.99    
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+The old key you try to increase does not exist
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+The new key you entered already exist, increase key operation failed
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+Before increase key operation:
+
+Heap capacity = 12
+
+Heap size = 7
+
+13   biscuit 3.45    
+9    pear    1.69    
+11   orange  0.97    
+8    apple   1.99    
+3    onion   1.29    
+4    egg     1.99    
+2    bread   2.99    
+
+Food with old key: 4 is increased to new key: 23
+
+After increase key operation:
+
+Heap capacity = 12
+
+Heap size = 7
+
+23   egg     1.99    
+9    pear    1.69    
+13   biscuit 3.45    
+8    apple   1.99    
+3    onion   1.29    
+11   orange  0.97    
+2    bread   2.99    
+
+What action would you like to perform?
+
+Enter the food name: 
+Enter food key: 
+Enter the food price: 
+The food "bacon" is added
+
+What action would you like to perform?
+
+Heap capacity = 12
+
+Heap size = 8
+
+23   egg     1.99    
+12   bacon   5.99    
+13   biscuit 3.45    
+9    pear    1.69    
+3    onion   1.29    
+11   orange  0.97    
+2    bread   2.99    
+8    apple   1.99    
+
+What action would you like to perform?
+
+Enter the old food key you want to increase: 
+Enter the new key value: 
+Before increase key operation:
+
+Heap capacity = 12
+
+Heap size = 8
+
+23   egg     1.99    
+12   bacon   5.99    
+13   biscuit 3.45    
+9    pear    1.69    
+3    onion   1.29    
+11   orange  0.97    
+2    bread   2.99    
+8    apple   1.99    
+
+Food with old key: 9 is increased to new key: 26
+
+After increase key operation:
+
+Heap capacity = 12
+
+Heap size = 8
+
+26   pear    1.69    
+23   egg     1.99    
+13   biscuit 3.45    
+12   bacon   5.99    
+3    onion   1.29    
+11   orange  0.97    
+2    bread   2.99    
+8    apple   1.99    
+
+What action would you like to perform?
+
+The number of deleted food items is: 8
